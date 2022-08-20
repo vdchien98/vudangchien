@@ -1,0 +1,47 @@
+.body {
+    margin-top: 20px;
+    .content {
+        border: 1px solid red;
+
+        .infor {
+            display: flex;
+
+            padding: 0;
+            margin: 20px 0;
+            .logo {
+                width: 200px;
+                height: auto;
+                margin-right: 20px;
+            }
+            .right {
+                h3 {
+                    font-size: 18px;
+                    font-weight: bold;
+                    width: 650px;
+                }
+                .price {
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: aqua;
+                }
+                .areaLocation {
+                    display: flex;
+                    lable {
+                        display: flex;
+                        p {
+                            margin-left: 5px;
+                            margin-right: 15px;
+                            color: blueviolet;
+                            font-weight: bold;
+                            font-size: 20px;
+                            margin-top: -3px;
+                        }
+                    }
+                }
+                .address {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
